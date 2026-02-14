@@ -45,6 +45,39 @@
     text-align: center;
 }
 
+.ad {
+    width: 16%;
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start;
+    padding: 20px 15px;    
+    box-sizing: border-box; 
+}
+
+.ad-sidebar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;               
+    width: 100%;           
+}
+
+.sidebar-ad-unit {
+    width: 100%;             
+    max-width: 140px;        
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar-ad-unit img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #d1d1d1;
+    border-radius: 4px; 
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
 .main {
     width: 68%;
     padding: 0;
